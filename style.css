@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f000;
+    color: #fdfdfd;
+}
+
+header {
+    background-image: url('imagens/13-setembro-dia-programador-programadora.webp');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+section {
+    margin: 2rem;
+    padding: 2rem;
+    background-color: rgb(176, 0, 0); 
+    border-radius: 10px;
+}
+
+#sobre {
+    background-image: url('imagens/padrao-de-paineis-de-sci-fi-fotorrealista-futurista-claro-e-ultra-claro_1111438-122.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+#Linguagens\ de\ Programação {
+    background-image: url('imagens/b4820f26-c24d-42a7-98a7-28d1269be1a7.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+#projetos {
+    background-image: url('imagens/github-wallpaper-scaled.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+#contato {
+    background-image: url('imagens/lista-de-contatos-por-email-marketing.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #020202;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
