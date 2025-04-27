@@ -1,63 +1,124 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+section {
+    animation: fadeIn 2s ease-in-out;
+}
+
+h1, h2 {
+    transition: all 0.3s ease;
+}
+
+h1:hover, h2:hover {
+    color: #f39c12;
+    transform: scale(1.1);
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+#sobre {
+    animation: slideIn 1s ease-out;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f000;
-    color: #fdfdfd;
+    background-color: #f4f4f4;
+    color: #ffffff; 
 }
 
 header {
-    background-image: url('imagens/13-setembro-dia-programador-programadora.webp');
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-    padding: 2rem;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+header img.profile-photo {
+    border-radius: 50%;
+    max-width: 150px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+    color: #fff; 
+}
+
+p {
+    font-size: 1.2em;
+    color: #fff; 
 }
 
 section {
-    margin: 2rem;
-    padding: 2rem;
-    background-color: rgb(176, 0, 0); 
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    background-color: #000000;
     border-radius: 10px;
+    box-shadow: 0px 4px 8px rgb(52, 52, 52);
 }
 
-#sobre {
-    background-image: url('imagens/padrao-de-paineis-de-sci-fi-fotorrealista-futurista-claro-e-ultra-claro_1111438-122.avif');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-    padding: 2rem;
+section h2 {
+    font-size: 1.8em;
+    color: #fff; 
+    margin-bottom: 10px;
 }
 
-#Linguagens\ de\ Programação {
-    background-image: url('imagens/b4820f26-c24d-42a7-98a7-28d1269be1a7.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+ul {
+    list-style: none;
+    padding-left: 0;
 }
 
-#projetos {
-    background-image: url('imagens/github-wallpaper-scaled.webp');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+ul li {
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    color: #fff; 
 }
 
-#contato {
-    background-image: url('imagens/lista-de-contatos-por-email-marketing.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+a {
+    text-decoration: none;
+    color: #ff0000; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul.social-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+ul.social-links li {
+    display: inline-block;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
 
 footer {
-    background-color: #020202;
-    color: white;
     text-align: center;
-    padding: 1rem;
-    margin-top: 2rem;
+    padding: 20px;
+    background-color: #000000;
+    color: #fff; 
 }
